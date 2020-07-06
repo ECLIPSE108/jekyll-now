@@ -284,10 +284,10 @@ footer {
 }
 
 //font awesome
-.fab a, .fab a:hover, .fab a:focus, .fab a:active {
+i, i a, i a:hover, i a:focus, i a:active {
       text-decoration: none;
-      color: inherit;
- }
+      color: $black;
+}
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
