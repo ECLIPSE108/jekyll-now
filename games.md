@@ -4,4 +4,6 @@ title: Games
 permalink: /games/
 ---
 
-###TEST
+### frick! meteors!
+
+![frick meteors promo banner](images/banner.jpg)
