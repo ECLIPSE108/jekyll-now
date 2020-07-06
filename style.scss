@@ -284,9 +284,14 @@ footer {
 }
 
 //font awesome
-i, i a, i a:hover, i a:focus, i a:active {
+i {
+  font-size: 40px;
+  color: $black;
+}
+
+i a, i a:hover, i a:focus, i a:active {
       text-decoration: none;
-      color: $black;
+      color: inherit;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
