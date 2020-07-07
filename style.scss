@@ -285,15 +285,12 @@ nav {
 
 footer {
   padding: 20px 0;
+  color: $darkGray;
+  font-size: 40px;
   text-align: center;
 }
 
 //font awesome
-i {
-  font-size: 40px;
-  color: $black;
-}
-
 i a, i a:hover, i a:focus, i a:active {
       text-decoration: none;
       color: inherit;
