@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: games
 title: Games
 permalink: /games/
 published: true
