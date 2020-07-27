@@ -2,7 +2,9 @@
 layout: page
 title: About
 permalink: /about/
+published: true
 ---
+# About
 
 I make games.
 
