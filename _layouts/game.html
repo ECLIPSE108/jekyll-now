@@ -6,7 +6,8 @@ layout: default
   <h1>{{ page.title }}</h1>
 
   <div class="entry">
-    {{ content }}
+    <p>{{ page.description }}</p>
+    <img src="{{ page.image }}">
   </div>
 
   {% include disqus.html %}
