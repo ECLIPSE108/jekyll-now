@@ -1,6 +1,8 @@
 ---
 layout: game
 title: frick! meteors!
+description: Dodge meteors. Stay alive.
+image: /images/banner.jpg
 ---
 
 Dodge meteors. Stay alive.
