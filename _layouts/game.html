@@ -17,8 +17,10 @@ layout: default
     {% else %}
     <p>Unreleased</p>
     {% endif %}
+    {% if content %}
     <br>
     {{ content }}
+    {% endif %}
   </div>
 
   {% include disqus.html %}
