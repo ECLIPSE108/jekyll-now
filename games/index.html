@@ -12,6 +12,9 @@ title: Games
       <div class="entry">
         <p>{{ post.description }}</p>
         <img src="{{ post.image }}">
+        {% if post.download %}
+        <p>Download:</p>
+        {% endif %}
       </div>
 
     </article>
