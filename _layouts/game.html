@@ -6,13 +6,13 @@ layout: default
   <h1>{{ page.title }}</h1>
 
   <div class="entry">
-    <p>{{ post.description }}</p>
-    <img src="{{ post.image }}">
-    {% if post.download %}
+    <p>{{ page.description }}</p>
+    <img src="{{ page.image }}">
+    {% if page.download %}
     <p>Download: 
-      {% if post.download.ios %}<a href="{{ post.download.ios }}">iOS</a>{% if post.download.android or post.download.windows %} | {% endif %}{% endif %}
-      {% if post.download.android %}<a href="{{ post.download.android }}">Android</a>{% if post.download.windows%} | {% endif %}{% endif %}
-      {% if post.download.windows %}<a href="{{ post.download.windows }}">Windows</a>{% endif %}
+      {% if page.download.ios %}<a href="{{ page.download.ios }}">iOS</a>{% if page.download.android or page.download.windows %} | {% endif %}{% endif %}
+      {% if page.download.android %}<a href="{{ page.download.android }}">Android</a>{% if page.download.windows%} | {% endif %}{% endif %}
+      {% if page.download.windows %}<a href="{{ page.download.windows }}">Windows</a>{% endif %}
     </p>
     {% else %}
     <p>Unreleased</p>
