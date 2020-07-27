@@ -11,7 +11,7 @@ title: Games
 
       <div class="entry">
         <p>{{ post.description }}</p>
-        <img src="{{ post.image }}">
+        <a href="{{ site.baseurl }}{{ post.url }}"><img src="{{ post.image }}"></a>
         {% if post.download %}
         <p>Download: 
           {% if post.download.ios %}<a href="{{ post.download.ios }}">iOS</a>{% if post.download.android or post.download.windows %} | {% endif %}{% endif %}
