@@ -20,7 +20,7 @@ title: Games
           {% if post.downloads.windows %}<a href="{{ post.downloads.windows }}">Windows</a>{% endif %}
         </p>
         {% else %}
-        <p>Unreleased</p>
+        <p>{{ page.status }}</p>
         {% endif %}
       </div>
 
