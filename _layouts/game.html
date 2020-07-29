@@ -17,6 +17,14 @@ layout: default
     {% else %}
     <p>Unreleased</p>
     {% endif %}
+    
+    {% if page.screenshots %}
+    <h2>Screenshots</h2>
+    {% for screenshot in page.screenshots %}
+      <img src="{{ screenshot }}">
+    {% endfor %}
+    {% endif %}
+    
     {{ content }}
   </div>
 
