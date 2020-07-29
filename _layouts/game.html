@@ -9,7 +9,7 @@ layout: default
     <p>{{ page.description }}</p>
     <img src="{{ page.image }}">
     {% if page.downloads %}
-    <p>Download: 
+    <p><em>Download:</em> 
       {% if page.downloads.ios %}<a href="{{ page.downloads.ios }}">iOS</a>{% if page.downloads.android or page.downloads.windows %} | {% endif %}{% endif %}
       {% if page.downloads.android %}<a href="{{ page.downloads.android }}">Android</a>{% if page.downloads.windows%} | {% endif %}{% endif %}
       {% if page.downloads.windows %}<a href="{{ page.downloads.windows }}">Windows</a>{% endif %}
@@ -17,16 +17,18 @@ layout: default
     {% else %}
     <p>Unreleased</p>
     {% endif %}
-    
-    {% if page.screenshots %}
-    <h2>Screenshots</h2>
-    {% for screenshot in page.screenshots %}
-      <img src="{{ screenshot }}">
-    {% endfor %}
-    {% endif %}
-    
-    {{ content }}
   </div>
 
   {% include disqus.html %}
 </article>
+
+{% if page.screenshots %}
+<article class="post">
+  <h1>Screenshots</h1>
+  <div class="entry">
+    {% for screenshot in page.screenshots %}
+      <img src="{{ screenshot }}">
+    {% endfor %}
+  </div>
+</article>
+{% endif %}
