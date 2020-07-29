@@ -2,6 +2,7 @@
 layout: default
 ---
 
+<div class="posts">
 <article class="post">
   <h1>{{ page.title }}</h1>
 
@@ -9,7 +10,7 @@ layout: default
     <p>{{ page.description }}</p>
     <img src="{{ page.image }}">
     {% if page.downloads %}
-    <p><em>Download:</em> 
+    <p>Download: 
       {% if page.downloads.ios %}<a href="{{ page.downloads.ios }}">iOS</a>{% if page.downloads.android or page.downloads.windows %} | {% endif %}{% endif %}
       {% if page.downloads.android %}<a href="{{ page.downloads.android }}">Android</a>{% if page.downloads.windows%} | {% endif %}{% endif %}
       {% if page.downloads.windows %}<a href="{{ page.downloads.windows }}">Windows</a>{% endif %}
@@ -24,7 +25,7 @@ layout: default
 
 {% if page.screenshots %}
 <article class="post">
-  <h1>Screenshots</h1>
+  <h2>Screenshots</h2>
   <div class="entry">
     {% for screenshot in page.screenshots %}
       <img src="{{ screenshot }}">
@@ -32,3 +33,4 @@ layout: default
   </div>
 </article>
 {% endif %}
+</div>
