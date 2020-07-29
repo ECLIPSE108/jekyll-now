@@ -9,8 +9,11 @@ layout: default
   <div class="entry">
     <p>{{ page.description }}</p>
     <img src={{ page.image }}>
+    
+    {{ content }}
+    
     {% if page.downloads %}
-    <p>Download: 
+    <p><strong>Download:</strong> 
       {% if page.downloads.ios %}<a href="{{ page.downloads.ios }}">iOS</a>{% if page.downloads.android or page.downloads.windows %} | {% endif %}{% endif %}
       {% if page.downloads.android %}<a href="{{ page.downloads.android }}">Android</a>{% if page.downloads.windows%} | {% endif %}{% endif %}
       {% if page.downloads.windows %}<a href="{{ page.downloads.windows }}">Windows</a>{% endif %}
