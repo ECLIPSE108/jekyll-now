@@ -19,8 +19,6 @@ title: Games
           {% if post.downloads.android %}<a href="{{ post.downloads.android }}">Android</a>{% if post.downloads.windows%} | {% endif %}{% endif %}
           {% if post.downloads.windows %}<a href="{{ post.downloads.windows }}">Windows</a>{% endif %}
         </p>
-        {% elseif page.status %}
-        <p>{{ page.status }}</p>
         {% else %}
         <p>Unreleased</p>
         {% endif %}
