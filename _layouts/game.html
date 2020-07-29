@@ -18,9 +18,11 @@ layout: default
     {% else %}
     <p>Unreleased</p>
     {% endif %}
-    
-    {% for post in site.categories.blog %}
-    {% if post.gametitle == page.title %}
+  </div>
+</article>
+  
+{% for post in site.categories.blog %}
+{% if post.gametitle == page.title %}
     <article class="post">
 
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
@@ -31,8 +33,7 @@ layout: default
 
       <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
     </article>
-    {% endif %}
-  {% endfor %}
-  </div>
-</article>
+{% endif %}
+{% endfor %}
+  
 </div>
