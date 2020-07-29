@@ -6,7 +6,7 @@ published: true
 ---
 # About
 
-I make games.
+I make games. A handful of years worth of experience in Unity and some experience in graphic design and animation.
 
 ### Contact me
 
