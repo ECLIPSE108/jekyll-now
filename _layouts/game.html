@@ -15,8 +15,6 @@ layout: default
       {% if page.downloads.android %}<a href="{{ page.downloads.android }}">Android</a>{% if page.downloads.windows%} | {% endif %}{% endif %}
       {% if page.downloads.windows %}<a href="{{ page.downloads.windows }}">Windows</a>{% endif %}
     </p>
-    {% elseif page.status %}
-    <p>{{ page.status }}</p>
     {% else %}
     <p>Unreleased</p>
     {% endif %}
