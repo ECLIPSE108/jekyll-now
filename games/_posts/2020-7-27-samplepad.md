@@ -8,4 +8,4 @@ downloads:
   windows: https://drive.google.com/file/d/1Bnfx0RfgZOVl2pdBItZhr0O2gcwWuY5p/view?usp=sharing
 ---
 
-Create your own soundboard using your own files and play them with the numpad.
+Create your own super simple soundboard using your own files.
