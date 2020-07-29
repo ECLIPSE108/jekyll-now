@@ -13,3 +13,5 @@ screenshots:
   - https://lh3.googleusercontent.com/iYgCX9mXH4Yu-xbjD8rg-F2pkxxpVZ7kzIMddO-hjChplTyEpjlD0BlWKfk0YZqvuQ=w720-h310-rw
   - https://lh3.googleusercontent.com/I0ZInC6kfoFJjuD6-r34NYkVLueDYheu0L04MnZs7fgdMUnCt1ETFiIfMguaWb_sFSg=w720-h310-rw
 ---
+
+When its raining meteors, you've got two options: dodge the meteors or accept your inevitable doom. However, the first option's the better deal 'cause you get points. Survive for as long as you can and make your way towards becoming #1!
