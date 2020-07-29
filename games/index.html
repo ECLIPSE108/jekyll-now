@@ -14,10 +14,13 @@ title: Games
         <p>{{ post.description }}</p>
         <a href="{{ site.baseurl }}{{ post.url }}"><img src={{ post.image }}></a>
         {% if post.downloads %}
-        <p>Download: 
+        <p>
+          <strong>
+          Download: 
           {% if post.downloads.ios %}<a href="{{ post.downloads.ios }}">iOS</a>{% if post.downloads.android or post.downloads.windows %} | {% endif %}{% endif %}
           {% if post.downloads.android %}<a href="{{ post.downloads.android }}">Android</a>{% if post.downloads.windows%} | {% endif %}{% endif %}
           {% if post.downloads.windows %}<a href="{{ post.downloads.windows }}">Windows</a>{% endif %}
+          </strong>
         </p>
         {% else %}
         <p><em>{{ post.status }}</em></p>
