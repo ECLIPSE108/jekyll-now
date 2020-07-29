@@ -12,11 +12,11 @@ title: Games
       <div class="entry">
         <p>{{ post.description }}</p>
         <a href="{{ site.baseurl }}{{ post.url }}"><img src="{{ post.image }}"></a>
-        {% if post.download %}
+        {% if post.downloads %}
         <p>Download: 
-          {% if post.download.ios %}<a href="{{ post.download.ios }}">iOS</a>{% if post.download.android or post.download.windows %} | {% endif %}{% endif %}
-          {% if post.download.android %}<a href="{{ post.download.android }}">Android</a>{% if post.download.windows%} | {% endif %}{% endif %}
-          {% if post.download.windows %}<a href="{{ post.download.windows }}">Windows</a>{% endif %}
+          {% if post.downloads.ios %}<a href="{{ post.downloads.ios }}">iOS</a>{% if post.downloads.android or post.downloads.windows %} | {% endif %}{% endif %}
+          {% if post.downloads.android %}<a href="{{ post.downloads.android }}">Android</a>{% if post.downloads.windows%} | {% endif %}{% endif %}
+          {% if post.downloads.windows %}<a href="{{ post.downloads.windows }}">Windows</a>{% endif %}
         </p>
         {% else %}
         <p>Unreleased</p>
