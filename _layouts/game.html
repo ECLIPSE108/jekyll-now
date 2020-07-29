@@ -13,10 +13,13 @@ layout: default
     {{ content }}
     
     {% if page.downloads %}
-    <p><strong>Download:</strong> 
-      {% if page.downloads.ios %}<a href="{{ page.downloads.ios }}">iOS</a>{% if page.downloads.android or page.downloads.windows %} | {% endif %}{% endif %}
-      {% if page.downloads.android %}<a href="{{ page.downloads.android }}">Android</a>{% if page.downloads.windows%} | {% endif %}{% endif %}
-      {% if page.downloads.windows %}<a href="{{ page.downloads.windows }}">Windows</a>{% endif %}
+    <p>
+      <strong>
+        Download:
+        {% if page.downloads.ios %}<a href="{{ page.downloads.ios }}">iOS</a>{% if page.downloads.android or page.downloads.windows %} | {% endif %}{% endif %}
+        {% if page.downloads.android %}<a href="{{ page.downloads.android }}">Android</a>{% if page.downloads.windows%} | {% endif %}{% endif %}
+        {% if page.downloads.windows %}<a href="{{ page.downloads.windows }}">Windows</a>{% endif %}
+      </strong> 
     </p>
     {% else %}
     <p><em>{{ page.status }}</em></p>
