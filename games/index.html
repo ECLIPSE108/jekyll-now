@@ -4,7 +4,8 @@ title: Games
 ---
 
 <div class="posts">
-  {% for post in site.categories.games %}
+  {% assign sorted_pages = site.categories.games | sort:"order" %}
+  {% for post in sorted_pages %}
     <article class="post">
 
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
