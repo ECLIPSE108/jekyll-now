@@ -8,11 +8,11 @@ layout: default
   <div class="entry">
     <p>{{ page.description }}</p>
     <img src="{{ page.image }}">
-    {% if page.download %}
+    {% if page.downloads %}
     <p>Download: 
-      {% if page.download.ios %}<a href="{{ page.download.ios }}">iOS</a>{% if page.download.android or page.download.windows %} | {% endif %}{% endif %}
-      {% if page.download.android %}<a href="{{ page.download.android }}">Android</a>{% if page.download.windows%} | {% endif %}{% endif %}
-      {% if page.download.windows %}<a href="{{ page.download.windows }}">Windows</a>{% endif %}
+      {% if page.downloads.ios %}<a href="{{ page.downloads.ios }}">iOS</a>{% if page.downloads.android or page.downloads.windows %} | {% endif %}{% endif %}
+      {% if page.downloads.android %}<a href="{{ page.downloads.android }}">Android</a>{% if page.downloads.windows%} | {% endif %}{% endif %}
+      {% if page.downloads.windows %}<a href="{{ page.downloads.windows }}">Windows</a>{% endif %}
     </p>
     {% else %}
     <p>Unreleased</p>
