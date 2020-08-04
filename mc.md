@@ -11,13 +11,19 @@
 
 ## Survival World
 
+Vanilla survival. Difficulty is set to hard.
+
 Use `/warp survival` to teleport to the survival world spawn.
 
 ## Creative World
 
+A creative flat-grass world. Fire spread, natural mob spawning, and dimensions are disabled.
+
 Use `/warp creative` to teleport to the creative world spawn.
 
 ## PVP World
+
+Fight against other players.
 
 Use `/warp pvp` to teleport to the PVP world.
 
@@ -49,4 +55,4 @@ Use `/tpadeny` to deny a teleport request being made out to you.
 
 ## Hats
 
-Put any block or item on your head using `/hat` while holding that item.
+Put any block or item on your head using `/hat` while holding that item. Equips it in your helmet slot.
