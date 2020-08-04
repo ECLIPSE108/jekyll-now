@@ -9,7 +9,7 @@
 
 ## Survival
 
-Use `/warp survival`
+Use `/warp survival` to teleport to the survival world spawn.
 
 ## Creative
 
