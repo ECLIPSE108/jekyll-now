@@ -46,3 +46,7 @@ Use `/tpacancel` to cancel an outgoing teleport request.
 Use `/tpaccept` to accept a teleport request being made out to you.
 
 Use `/tpadeny` to deny a teleport request being made out to you.
+
+## Hats
+
+Put any block or item on your head using `/hat` while holding that item.
