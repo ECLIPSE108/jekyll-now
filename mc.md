@@ -39,7 +39,7 @@ Teleport to players and teleport them to you (with their permission of course).
 
 To request a teleport to a player, use `/tpa <player>` where `<player>` is the name of the player you want to teleport to.
 
-To request a player to teleport to you, use `/tpahere <player>` where `<player>` is the name of the player you want to teleported to you.
+To request a player to teleport to you, use `/tpahere <player>` where `<player>` is the name of the player you want to be teleported to you.
 
 Use `/tpacancel` to cancel an outgoing teleport request.
 
