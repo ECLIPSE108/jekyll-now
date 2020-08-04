@@ -5,9 +5,15 @@
 
 ## Rules
 
-- Try not to be a douchebag
-- Don't hack
-- Have fun
+- Try not to be a douchebag.
+- Don't hack.
+- Have fun!
+
+## General commands
+
+- `/warp *name*`: travel to other worlds.
+- `/sethome`: set a home to your current location.
+- `/home`: teleport to your home.
 
 ## Survival
 
