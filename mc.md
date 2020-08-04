@@ -11,9 +11,11 @@
 
 ## General commands
 
-- `/warp *name*`: travel to other worlds.
-- `/sethome`: set a home to your current location.
-- `/home`: teleport to your home.
+- `/warp` *name*: Travel to other worlds.
+- `/sethome` *name*: Set a home to your current location. You can set multiple homes with a limit of 5.
+- `/home` *name*: Teleport to your home.
+- `/delhome` *name*: Removes a home. 
+
 
 ## Survival
 
