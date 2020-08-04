@@ -4,8 +4,6 @@ title: About
 permalink: /about/
 published: true
 ---
-# About
-
 I make games. A handful of years worth of experience in Unity and some experience in graphic design and animation.
 
 ### Contact me
