@@ -3,9 +3,11 @@
   title: Welcome to NelsonCraft!
 ---
 
-## Getting Started
+## Rules
 
-
+*Try not to be a douchebag
+*Don't hack
+*Have fun
 
 ## Survival
 
