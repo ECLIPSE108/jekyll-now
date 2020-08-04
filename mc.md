@@ -34,3 +34,15 @@ If you want to delete a home, use `/delhome`. If you have multiple homes, specif
 `/homes` can be used to see a list of your homes.
 
 ## TPA
+
+Teleport to players and teleport them to you (with their permission of course).
+
+To request a teleport to a player, use `/tpa <player>` where `<player>` is the name of the player you want to teleport to.
+
+To request a player to teleport to you, use `/tpahere <player>` where `<player>` is the name of the player you want to teleported to you.
+
+Use `/tpaccept` to accept a teleport request.
+
+Use `/tpacancel` to cancel a teleport request.
+
+Use `/tpadeny` to deny a teleport request being made out to you.
