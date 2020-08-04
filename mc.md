@@ -31,4 +31,6 @@ To teleport to a home, use `/home`. If you have multiple homes, specify a home b
 
 If you want to delete a home, use `/delhome`. If you have multiple homes, specify a home by adding a space and the name of the home (e.g., `/delhome fishingSpot`).
 
+`/homes` can be used to see a list of your homes.
+
 ## TPA
