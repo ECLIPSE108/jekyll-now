@@ -5,9 +5,9 @@
 
 ## Rules
 
-*Try not to be a douchebag
-*Don't hack
-*Have fun
+- Try not to be a douchebag
+- Don't hack
+- Have fun
 
 ## Survival
 
