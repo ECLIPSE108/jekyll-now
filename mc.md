@@ -3,4 +3,18 @@
   title: Welcome to NelsonCraft!
 ---
 
-##WIP
+## Getting Started
+
+
+
+## Survival
+
+Use `/warp survival`
+
+## Creative
+
+Use `/warp creative` to teleport to the creative world spawn.
+
+## PVP
+
+Use `/warp pvp` to teleport to the PVP world.
