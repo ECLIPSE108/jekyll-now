@@ -43,6 +43,8 @@ To request a player to teleport to you, use `/tpahere <player>` where `<player>`
 
 Use `/tpaccept` to accept a teleport request.
 
-Use `/tpacancel` to cancel a teleport request.
+Use `/tpacancel` to cancel an outgoing teleport request.
+
+Use `/tpaccept` to accept a teleport request being made out to you.
 
 Use `/tpadeny` to deny a teleport request being made out to you.
