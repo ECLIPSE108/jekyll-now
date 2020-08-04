@@ -13,17 +13,23 @@
 
 Vanilla survival. Difficulty is set to hard.
 
+![survival world screenshot](/images/survival.png)
+
 Use `/warp survival` to teleport to the survival world spawn.
 
 ## Creative World
 
 A creative flat-grass world. Fire spread, natural mob spawning, and dimensions are disabled.
 
+![creative world screenshot](/images/creative.png)
+
 Use `/warp creative` to teleport to the creative world spawn.
 
 ## PVP World
 
 Fight against other players.
+
+![pvp world screenshot](/images/pvp.png)
 
 Use `/warp pvp` to teleport to the PVP world.
 
