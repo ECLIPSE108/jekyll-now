@@ -57,7 +57,7 @@ Use `/tpacancel` to cancel an outgoing teleport request.
 
 Use `/tpaccept` to accept a teleport request being made out to you.
 
-Use `/tpadeny` to deny a teleport request being made out to you.
+Use `/tpdeny` to deny a teleport request being made out to you.
 
 ## Hats
 
