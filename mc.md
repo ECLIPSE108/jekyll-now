@@ -15,7 +15,7 @@ Vanilla survival. Difficulty is set to hard.
 
 ![survival world screenshot](/images/survival.png)
 
-Use `/warp survival` to teleport to the survival world spawn.
+Use `/survival` to teleport to the survival world.
 
 ## Creative World
 
@@ -23,7 +23,7 @@ A creative flat-grass world. Fire spread, natural mob spawning, and dimensions a
 
 ![creative world screenshot](/images/creative.png)
 
-Use `/warp creative` to teleport to the creative world spawn.
+Use `/creative` to teleport to the creative world.
 
 ## PVP World
 
@@ -31,7 +31,15 @@ Fight against other players.
 
 ![pvp world screenshot](/images/pvp.png)
 
-Use `/warp pvp` to teleport to the PVP world.
+Use `/pvp` to teleport to the PVP world.
+
+## Warps
+
+This server has two warps: one that goes to the survival world spawn and one that goes to the creative world spawn.
+
+For the survival world spawn, use `/warp survival_spawn`.
+
+For the creative world spawn, use `/warp creative_spawn`.
 
 ## Homes
 
@@ -39,7 +47,7 @@ This server supports the use of "homes" that allow you to teleport to specific p
 
 Use `/sethome` to create a home. You can set multiple homes but each needs a unique name. You can name a home by adding a space and a name when using the command (e.g., `/sethome fishingSpot`). The limit for homes is 5 per player.
 
-To teleport to a home, use `/home`. If you have multiple homes, specify a home by adding a space and the name of the home (e.g., `/home fishingSpot`). Be aware that there is a 5 second delay and a 5 second cooldown when using this command. If you move during the delay, the teleport will cancel.
+To teleport to a home, use `/home`. If you have multiple homes, specify a home by adding a space and the name of the home (e.g., `/home fishingSpot`). Be aware that there is a 5 second delay when using this command. If you move during the delay, the teleport will cancel.
 
 If you want to delete a home, use `/delhome`. If you have multiple homes, specify a home by adding a space and the name of the home (e.g., `/delhome fishingSpot`).
 
