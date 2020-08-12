@@ -33,19 +33,11 @@ Fight against other players.
 
 Use `/pvp` to teleport to the PVP world.
 
-## Warps
-
-This server has two warps: one that goes to the survival world spawn and one that goes to the creative world spawn.
-
-For the survival world spawn, use `/warp survival_spawn`.
-
-For the creative world spawn, use `/warp creative_spawn`.
-
 ## Homes
 
-This server supports the use of "homes" that allow you to teleport to specific places throughout the server.
+This server supports the use of "homes" in the survival and creative worlds. They allow you to teleport to specific places throughout each world.
 
-Use `/sethome` to create a home. You can set multiple homes but each needs a unique name. You can name a home by adding a space and a name when using the command (e.g., `/sethome fishingSpot`). The limit for homes is 5 per player.
+Use `/sethome` to create a home. You can set multiple homes but each needs a unique name. You can name a home by adding a space and a name when using the command (e.g., `/sethome fishingSpot`). The limit for homes is 5 per player in the survival world and 1000 per player in the creative world.
 
 To teleport to a home, use `/home`. If you have multiple homes, specify a home by adding a space and the name of the home (e.g., `/home fishingSpot`). Be aware that there is a 5 second delay when using this command. If you move during the delay, the teleport will cancel.
 
