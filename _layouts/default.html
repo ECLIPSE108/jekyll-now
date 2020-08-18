@@ -45,10 +45,27 @@
           </div>
 
           <nav>
-            <a href="{{ site.baseurl }}/">Blog</a>
-            <a href="{{ site.baseurl }}/games">Games</a>
-            <!-- <a href="{{ site.baseurl }}/art">Art</a> --!>
-            <a href="{{ site.baseurl }}/about">About</a>
+            <a href="{{ site.baseurl }}/">
+              {% if page.name == "index.html" %}
+              <u>Blog</u>
+              {% else %}
+              Blog
+              {% endif %}
+            </a>
+            <a href="{{ site.baseurl }}/games">
+              {% if page.name == "games.md" %}
+              <u>Games</u>
+              {% else %}
+              Games
+              {% endif %}
+            </a>
+            <a href="{{ site.baseurl }}/about">
+              {% if page.name == "about.md" %}
+              <u>About</u>
+              {% else %}
+              About
+              {% endif %}
+            </a>
           </nav>
         </header>
       </div>
