@@ -1,0 +1,31 @@
+---
+layout: default
+title: Games
+---
+
+<div class="posts">
+  {% for post in site.categories.games %}
+    <article class="post">
+
+      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+
+      <div class="entry">
+        <p>{{ post.description }}</p>
+        <a href="{{ site.baseurl }}{{ post.url }}"><img src={{ post.image }}></a>
+        {% if post.downloads %}
+        <p>
+          <strong>
+          Download: 
+          {% if post.downloads.ios %}<a href="{{ post.downloads.ios }}">iOS</a>{% if post.downloads.android or post.downloads.windows %} | {% endif %}{% endif %}
+          {% if post.downloads.android %}<a href="{{ post.downloads.android }}">Android</a>{% if post.downloads.windows%} | {% endif %}{% endif %}
+          {% if post.downloads.windows %}<a href="{{ post.downloads.windows }}">Windows</a>{% endif %}
+          </strong>
+        </p>
+        {% else %}
+        <p><em>{{ post.status }}</em></p>
+        {% endif %}
+      </div>
+
+    </article>
+  {% endfor %}
+</div>
