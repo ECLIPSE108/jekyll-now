@@ -46,25 +46,13 @@
 
           <nav>
             <a href="{{ site.baseurl }}/">
-              {% if page.name == "index.html" %}
-              <u>Blog</u>
-              {% else %}
-              Blog
-              {% endif %}
+              {% if page.name == "index.html" %}<u>Blog</u>{% else %}Blog{% endif %}
             </a>
             <a href="{{ site.baseurl }}/games">
-              {% if page.name == "games.html" %}
-              <u>Games</u>
-              {% else %}
-              Games
-              {% endif %}
+              {% if page.name == "games.html" %}<u>Games</u>{% else %}Games{% endif %}
             </a>
             <a href="{{ site.baseurl }}/about">
-              {% if page.name == "about.md" %}
-              <u>About</u>
-              {% else %}
-              About
-              {% endif %}
+              {% if page.name == "about.md" %}<u>About</u>{% else %}About{% endif %}
             </a>
           </nav>
         </header>
