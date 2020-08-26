@@ -5,8 +5,7 @@
 
 <script src="/js/mccounter.js"></script>
 
-`Loading...`
-{:#counter}
+<code id="counter" class="language-plaintext highlighter-rouge">Loading...</code>
 
 ## Rules
 
