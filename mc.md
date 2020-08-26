@@ -6,7 +6,7 @@
 <script src="/js/mccounter.js"></script>
 
 Loading...
-{:#counter}{:.language-plaintext}{:.highlighter-rouge}
+{:#counter}{:.language-plaintext highlighter-rouge}
 
 ## Rules
 
