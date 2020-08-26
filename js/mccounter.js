@@ -9,5 +9,5 @@ $.getJSON(url, function(r) {
  } 
 var pl = '';
  if(r.players.sample.length > 0 ){ pl = '<br>OP: '+r.players.sample[0].name;  } 
-  $('#counter').html('<b>Players Online:</b> '+r.players.online);
+  $('#counter').html('Players Online: '+r.players.online);
 });
