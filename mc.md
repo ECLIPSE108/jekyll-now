@@ -5,8 +5,10 @@
 
 <script src="/js/mccounter.js"></script>
 
+{% highlight %}
 Loading...
 {:#counter}
+{% endhighlight  %}
 
 ## Rules
 
