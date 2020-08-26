@@ -7,7 +7,6 @@ $.getJSON(url, function(r) {
     $('#counter').html('Server Offline');
    return false;
  } 
-var pl = '';
- if(r.players.sample.length > 0 ){ pl = '<br>OP: '+r.players.sample[0].name;  } 
+ 
   $('#counter').html('Players Online: '+r.players.online+'<br>Version: ' + r.version.name);
 });
