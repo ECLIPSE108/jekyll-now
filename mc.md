@@ -5,8 +5,8 @@
 
 <script src="/js/mccounter.js"></script>
 
-Loading...
-{:#counter}{:.language-plaintext highlighter-rouge}
+`Loading...`
+{:#counter}
 
 ## Rules
 
