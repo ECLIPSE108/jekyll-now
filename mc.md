@@ -3,7 +3,7 @@
   title: Welcome to NelsonCraft!
 ---
 
-<script src="js/mccounter.js"></script>
+<script src="/js/mccounter.js"></script>
 
 Loading...
 {:#counter}
