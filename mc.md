@@ -3,6 +3,11 @@
   title: Welcome to NelsonCraft!
 ---
 
+<script src="js/mccounter.js"></script>
+
+Loading...
+{:#counter}
+
 ## Rules
 
 - Try not to be a douchebag.
