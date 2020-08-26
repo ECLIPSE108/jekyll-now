@@ -5,10 +5,8 @@
 
 <script src="/js/mccounter.js"></script>
 
-{% highlight %}
 Loading...
-{:#counter}
-{% endhighlight  %}
+{:#counter, .language-plaintext, .highlighter-rouge}
 
 ## Rules
 
