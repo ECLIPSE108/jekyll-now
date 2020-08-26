@@ -6,7 +6,7 @@
 <script src="/js/mccounter.js"></script>
 
 Loading...
-{:.counter}
+{:#counter}
 
 ## Rules
 
