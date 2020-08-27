@@ -5,8 +5,6 @@
 
 <script src="/js/mccounter.js"></script>
 
-## Stats
-
 Loading...
 {:#counter}
 
