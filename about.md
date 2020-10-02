@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 published: true
 ---
-I make games.
+I do stuff.
 
 ### Experience
  
