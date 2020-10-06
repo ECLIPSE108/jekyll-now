@@ -193,10 +193,9 @@ img {
   margin-right: 15px;
 
   @include mobile {
-    display: none;
-    /*float: none;
+    float: none;
     display: block;
-    margin: 0 auto;*/
+    margin: 0 auto;
   }
 
   img {
