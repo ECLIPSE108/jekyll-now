@@ -310,9 +310,11 @@ nav {
 }
 
 footer {
-  padding: 20px 0;
   font-size: 40px;
   text-align: center;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 i, i a, i a:hover, i a:focus, i a:active {
