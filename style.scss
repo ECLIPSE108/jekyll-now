@@ -298,15 +298,15 @@ nav {
 }
 
 .content {
-  min-height: calc(100vh - 150px);	
+  min-height: calc(100vh - 125px);	
 }
 
 .wrapper-footer {
-  height: 100px;
+  height: 75px;
   margin-top: 50px;
   border-top: 1px solid #ddd;
   background-color: $lightGray;
-  letter-spacing: 5px;
+  letter-spacing: 10px;
   position: relative;
 }
 
