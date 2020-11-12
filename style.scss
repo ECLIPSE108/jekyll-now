@@ -33,7 +33,7 @@ body {
 	margin: auto;
 }
 
-.foreground-content{
+.foreground-{
 	background: white;
 	margin: 0 5px;
 	box-shadow: 0 0 5px rgba(0,0,0,0.1);
@@ -167,7 +167,7 @@ img {
 //
 
 .wrapper-masthead {
-  margin-bottom: 50px;
+  margin-bottom: 25px;
 }
 
 .masthead {
@@ -298,12 +298,12 @@ nav {
 }
 
 .content {
-  min-height: calc(100vh - 125px);	
+  min-height: calc(100vh - 100px);	
 }
 
 .wrapper-footer {
   height: 75px;
-  margin-top: 50px;
+  margin-top: 25px;
   border-top: 1px solid #ddd;
   background-color: $lightGray;
   letter-spacing: 5px;
