@@ -319,6 +319,10 @@ footer {
   transform: translateY(-50%);
 }
 
+footer a {
+  width: 50px;	
+}
+
 svg, svg a, svg a:hover, svg a:focus, svg a:active {
       text-decoration: none;
       color: $darkGray;
