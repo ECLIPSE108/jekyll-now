@@ -12,4 +12,4 @@ I do stuff.
 
 ### Contact me
 
-[aidanbyrnesdev@gmail.com](mailto:aidanbyrnesdev@gmail.com)
+[aidancbyrnes@gmail.com](mailto:aidancbyrnes@gmail.com)
